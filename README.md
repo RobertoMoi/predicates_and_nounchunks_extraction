@@ -2,8 +2,7 @@
 
 Questa applicazione permette di estrarre i noun chunk e le forme verbali (predicati verbali e verbi copulativi) da un testo tramite l'algoritmo di spaCy.
 
-L'estrazione dei noun chunk è stata modificata attraverso un algoritmo che unisce la testa della radice del noun chunk con il noun chunk stesso quando la relazione
-di dipendenza tra la radice e la sua testa è uguale a "modificatore nominale".
+L'estrazione dei noun chunk è stata perfezionata attraverso un algoritmo che unisce la testa della radice del noun chunk con il noun chunk stesso quando la loro relazione di dipendenza è uguale a "modificatore nominale".
 
 ## Installazione
 
